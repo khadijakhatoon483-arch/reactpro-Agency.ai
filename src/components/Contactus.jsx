@@ -1,5 +1,5 @@
 import React from 'react'
-import Titel from './Titel'
+import {Navbar,Titel} from "./index.js"
 import assets from '../assets/assets/assets'
 import toast from 'react-hot-toast'
 import { motion } from "motion/react"
@@ -50,7 +50,7 @@ const Contactus = () => {
       className='flex flex-col items-center gap-7 px-4 sm:px-12 lg:px-24 xl:px-40 pt-30 text-gray-700 dark:text-white'
     >
 
-      <Titel
+      <Title
         titel='Reach out to us'
         desc='From strategy to execution, we craft digital solutions that move your business forward.'
       />
